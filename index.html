@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+  <div class="log">
+    <div class="left-content">
+        <img src="./images/small-logo.png" alt="Dirasah-logo" class="dirasah-logo">
+    </div>
+
+    <div class="right-content">
+      
+      <form action="">
+        <h1 class="form-title">AHLAN SAHLAN</h1>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="" class="name-inpu inpu" placeholder="Name">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="" class="email-inpu inpu" placeholder=" Email">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="" class="pass-inpu inpu" placeholder="Password">
+        <input type="checkbox" name="checkbox" id="" class="check-inpu"><span>I agree with your terms & condisions</span>
+        <button onclick="logDin()" type="submit" class="btn"><p id="logEd">Log in</p></button>
+      </form>
+    </div>
+
+  </div>
+
+  <script>
+    function logDin(){
+        document.getElementById("logEd").innerHTML = "Allready Enrolled"
+    }
+  </script>
+
+  
+
+</body>
+</html>
